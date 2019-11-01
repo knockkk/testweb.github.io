@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
+title: PY'blog
+subtitle: 脚踏实地，仰望星空
 description:
 keywords:
-author: John Doe
+author: 彭宇
 language: en
 timezone:
 
@@ -95,4 +95,6 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: https://github.com/knockkk/knockkk.github.io.git
+  branch: master
