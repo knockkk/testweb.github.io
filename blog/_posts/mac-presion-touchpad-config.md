@@ -1,0 +1,36 @@
+---
+title: Mac上Windows系统安装触摸屏驱动 mac-precision-touchpad
+date: 2020-11-28
+tags: 
+  - tool
+---
+
+Mac上使用Bootcamp安装Windows系统后，触摸板的使用体验并不那么好，比如上下滑动方向不可配置，也不能用手势切换应用等。
+
+解决方案：[mac-precision-touchpad](https://github.com/imbushuo/mac-precision-touchpad)（亲测有效且安装简单）
+
+我的设备：MacPro 2019款。
+
+1. 管理员身份打开 cmd；
+2. 在命令行中运行如下命令：
+
+```sh
+@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
+```
+
+3. 检查choco命令是否可以运行，可以则OK
+
+```sh
+choco
+```
+
+4. 安装驱动 
+
+```sh
+choco install mac-precision-touchpad
+```
+
+5. 完成！
+
+   现在可以去“触摸板配置”里愉快的玩耍了～
+

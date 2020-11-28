@@ -4,7 +4,8 @@
   "scripts": {
     "dev": "vuepress dev blog",
     "build": "vuepress build blog",
-    "deploy": "bash deploy.sh"
+    "deploy": "bash deploy.sh",
+    "generate": "node scripts/generate.js"
   },
   "license": "MIT",
   "devDependencies": {
