@@ -5,7 +5,8 @@
     "dev": "vuepress dev blog",
     "build": "vuepress build blog",
     "deploy": "bash deploy.sh",
-    "generate": "node scripts/generate.js"
+    "generate": "node scripts/generate.js",
+    "edit": "open -a typora blog/_posts"
   },
   "license": "MIT",
   "devDependencies": {

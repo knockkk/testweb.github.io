@@ -1,11 +1,15 @@
 ---
-title: Mac上Windows系统安装触摸屏驱动 mac-precision-touchpad
+title: Bootcamp Windows食用指南
 date: 2020-11-28
 tags: 
   - tool
 ---
 
-Mac上使用Bootcamp安装Windows系统后，触摸板的使用体验并不那么好，比如上下滑动方向不可配置，也不能用手势切换应用等。
+在Mac上使用Bootcamp安装的Windows系统中有些功能不太好用，但可以通过一些工具来优化使用体验。
+
+### 1. 触摸板
+
+触摸板上下滑动方向不可配置，也不能用手势切换应用。
 
 解决方案：[mac-precision-touchpad](https://github.com/imbushuo/mac-precision-touchpad)（亲测有效且安装简单）
 
@@ -33,4 +37,22 @@ choco install mac-precision-touchpad
 5. 完成！
 
    现在可以去“触摸板配置”里愉快的玩耍了～
+
+### 2. 按键
+
+用惯了mac的快捷键，这时候再用Windows的快捷键会很不习惯。
+
+解决方案：Sharpkeys
+
+可以将键盘上某个键映射到另一个键，比如将“左Windows键”映射到“左Ctrl键”。
+
+![image-20201204123443851](https://i.loli.net/2020/12/04/eNiBPL64ymGYsMZ.png)
+
+参考：
+
+1. https://sharpkeys.en.softonic.com/
+
+2. https://www.howtogeek.com/197365/how-to-remap-windows-keyboard-shortcuts-in-boot-camp-on-a-mac/
+
+
 
