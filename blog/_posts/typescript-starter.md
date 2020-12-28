@@ -2,7 +2,7 @@
 title: Typescirpt 5min快速上手
 date: 2020-12-26
 tags: 
-  - Vue
+  - Typescript
 ---
 
 > Typescript提供了Javascript的所有特性，唯一不同的是在Javascript之上建立了**类型系统**。
