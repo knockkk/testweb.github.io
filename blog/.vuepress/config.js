@@ -16,7 +16,7 @@ module.exports = {
       },
       {
         text: "Notes",
-        link: "/note",
+        link: "https://knockkk.github.io/note/",
       },
       // {
       //   text: "About Me",
