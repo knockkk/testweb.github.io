@@ -16,7 +16,7 @@ module.exports = {
       },
       {
         text: "Notes",
-        link: "/note/",
+        link: "/note",
       },
       // {
       //   text: "About Me",
