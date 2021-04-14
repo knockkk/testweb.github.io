@@ -18,10 +18,10 @@ module.exports = {
         text: "Notes",
         link: "https://knockkk.github.io/note/",
       },
-      // {
-      //   text: "About Me",
-      //   link: "/pages/about.md",
-      // },
+      {
+        text: "About Me",
+        link: "/pages/about.md",
+      },
     ],
     footer: {
       contact: [
